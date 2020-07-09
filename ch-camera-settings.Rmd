@@ -1,0 +1,56 @@
+# How to Set Your Settings For Good Media Cinematography {#ch-camera-settings}
+
+Confused at all the camera settings available for your drone?  Here's a quick guide to figure things out.
+
+## Settings within a Drone 
+- ISO
+- Aperature
+- Shutter Speed
+- Image ratio
+- Image Format 
+- White Balance 
+- Style 
+- Color 
+
+### Iso 
+ ISO measures the sensitivity of the image sensor. The lower the number the less sensitive your camera is to light and the finer the grain. By choosing a higher ISO you can use a faster shutter speed to freeze the movement. Higher numbers mean your sensor becomes more sensitive to light which allows you to use your camera in darker situations, but the cost of doing so is more grain.
+
+** insert GIF picture #1 here **
+
+### Aperature
+This controls how much light gets through when you take a picture. This is measured in ‘f-stops.’ A smaller f-stop number means a bigger aperture and so more light comes through, and a bigger f-stop number means a smaller aperture, so less light comes through. In A mode, you can set the Aperture, but other settings will still be set automatically to match exposure.
+
+*** insert GIF picture #2 here**
+
+### Shutter Speed 
+The Shutter controls for how long light is let into the lenses. To simplify the shutter, a low shutter speed lets more light in and is good for taking pictures in dim lighting while a high shutter speed lets in more light and is good for taking crisp shots of moving objects or people. In S mode, you can set the shutter speed, but other settings will be set automatically to match exposure.
+
+(** Image gif #3) 
+
+
+### Image Ratio 
+is the ratio of its width to its height. You can choose the size of your picture 4:3 this is the old standard 35mm size that used to be common during the SD era of TVs. 16:9 this is the common size for HD capable devices and 3:2 is the traditional size for printed photos (3:2 P4P). Look at diagram below to understand. 
+
+** Image #4 ** 
+
+### Image Format
+In this area, you can choose between taking photos in RAW, JPEG and RAW + JPEG. Raw is a file format that captures all image data recorded by the sensor when you take a photo. JPEG a format for compressing image files.
+
+** IMAGE #5 *** 
+
+### White Balance 
+This is the process of removing unrealistic color casts so that objects which appear white in person are rendered white in your photo.  It is measured in Kelvins. If you have Auto selected, then the camera will decide what the best setting is. You can also choose from a selection of profiles or set it yourself. Kelvin Temperature is simply a unit of measurement for temperature and in photography we most often use it to measure the color temperature of light sources. The temperature scale most often used in photography ranges from about 2000K (K=Kelvin) to 9000K.
+
+** Image #6 **
+
+### Style 
+This is where you can configure the sharpness, contrast, and saturation of the images or videos that your drone’s camera takes. (Triangle) Digital Sharpness this makes the picture sharper. (Circle) Contrast controls the strength of the lights and the darks in the picture. (Rectangle) Saturation of colors low saturation makes the photos look dull, and high saturation make the colors pop. These can be set in a range of -3 to +3.
+
+** image #7 ** 
+
+### COLOR  
+Here you can set the camera color profile. These settings affect the colors in your photo.  D – Cinelike and D –Log are both designed for taking photos that will be post-processed later on. The rest of the color profiles are ready to go with no post-processing required.
+
+** image # 8 )
+
+## Example Scenarios

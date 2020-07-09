@@ -1,0 +1,24 @@
+--- 
+title: "Drone Guides"
+author: ""
+
+site: bookdown::bookdown_site
+documentclass: book
+
+biblio-style: apalike
+link-citations: yes
+description: "Guides for drones - by the UC Center of Excellence on UAS Safety and other contributors"
+---
+
+
+# Drone Guide Portal {#ch-getting-started}
+
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/COE_logo.png')
+```
+
+In this portal, you'll find links to various tutorials and guides for drone users of all levels. 
+
+This page will be a work in progress and new resources will be added periodically.  Feel free to reach out to us at [UASSafety@ucmerced.edu](mailto:UASSafety@ucmerced.edu) if you have any questions or would like to see additional resources added.
+
+If you're interested in contributing a tutorial or guide, please feel free to fork this repository and add your content.  This guide is developed in RStudio using bookdown.  All content is generated from the markdown files in the main directory.  
