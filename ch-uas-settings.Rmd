@@ -1,0 +1,90 @@
+# General UAS Settings {#ch-uas-settings.Rmd}
+
+## Main Control (MC) Settings
+
+![Arrow indicating settings page location](images\DJI-SettingsPage.jpg)
+
+The main control settings tab allows the user to modify a number of basic settings such as
+   
+![Main Control Settings](images\MC\DJI-MC-SettingsPage.jpg)
+
+![Main Control Settings Logo](images/MC/DJI-MClogo.jpg)
+
+1. Return-to-Home Altitude
+2. Beginner Mode
+3. Maximum Altitude
+4. Distance Limit
+
+
+with more advanced settings found at the bottom of the page. 
+
+### Advanced Settings
+
+
+![Advanced Settings Page](images\MC\DJI-MC-Advanced-Settings.jpg)
+The Advanced Settings page allows us access to a few different aircraft sensitivity settings.
+
+1. EXP
+
+![EXP settings](images\MC\DJI-ExpSettings.jpg)
+
+Tuning the EXP settings allows you to increase/decrease stick input sensitivity. The X-axis indicates user stick input and the Y-axis represents the "value" being output to the motors from these stick inputs. The higher the value, the more sensitive the drone can be towards the input stick movement. This is not to be confused with the next setting below. 
+
+2. Sensitivity
+
+![Sensitivity settings](images\MC\DJI-SensitivitySettings.jpg)
+
+The sensitivity setting affects how rapidly the drone will respond to the input. A higher value would cause the drone to react more aggressively while a lower value would dull out that same input.  
+
+3. Gain
+
+![Gain settings](images\MC\DJI-GainSettings.jpg)
+
+Generally, the gain settingss are left alone. 
+
+*General comment for myself, try and get a drone to checkout some of these functions before you can specifically state what it is that they do. There are some contradicting pieces of information found on the "Gain" settings and I don't want to give the wrong words of advice for something that can be sensitive to errors.*
+
+## Visual Navigation Settings
+
+![Visual Navigation Settings Page](images\VN\DJI-VisualNavigationSettings.jpg)
+
+![Visual Navigation Settings Logo](images/VN/DJI-VNLogo.jpg)
+
+Here we can toggle the Obstacle avoidance on and off, as well as the Radar Chart that displays real time obstacle detection. At the bottom we can again find Advanced Settings that pertain to the systems Visual navigation.
+
+### Advanced Settings
+
+![Advanced Settings](images\VN\DJI-VN-AdvancedSettings.jpg)
+
+The Advanced Settings for the Visual Navigation Settings allow for the enabling/disabling of both the Downward vision positioning system and the return-to-home obstacle detection feature.
+
+## Remote Controller Settings
+
+*add picture of settings page*
+
+1. Remote Controller Calibration
+2. Stick Mode
+3. Button Customization
+4. Remote Controller Linking
+
+
+## Image Transmission Settings
+
+*add picture of settings page*
+
+1. Channel Mode
+2. Channel selection
+3. Image Transmission Code Rate
+
+## Aircraft battery Settings
+
+*add picture of settings page*
+
+1. Smart Return Home (RTH)
+2. Critical Battery Warning
+3. Low Battery Warning
+4. Flight Time (on battery)
+5. Show Voltage on Main Screen
+6. Time to Discharge
+7. Battery Details
+

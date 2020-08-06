@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Drone Guides</title>
+  <title>Chapter 3 General UAS Settings | Drone Guides</title>
   <meta name="description" content="Guides for drones - by the UC Center of Excellence on UAS Safety and other contributors" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Drone Guides" />
+  <meta property="og:title" content="Chapter 3 General UAS Settings | Drone Guides" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Drone Guides" />
+  <meta name="twitter:title" content="Chapter 3 General UAS Settings | Drone Guides" />
   
   <meta name="twitter:description" content="Guides for drones - by the UC Center of Excellence on UAS Safety and other contributors" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
+<link rel="prev" href="ch-camera-settings.html"/>
 
-<link rel="next" href="ch-camera-settings.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -173,24 +173,79 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Drone Guides</h1>
+<div id="ch-uas-settings.Rmd" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> General UAS Settings</h1>
+<div id="main-control-mc-settings" class="section level2">
+<h2><span class="header-section-number">3.1</span> Main Control (MC) Settings</h2>
+<div class="figure">
+<img src="images/DJI-SettingsPage.jpg" alt="" />
+<p class="caption">Arrow indicating settings page location</p>
 </div>
-<div id="ch-getting-started" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Drone Guide Portal</h1>
-<p><img src="images/COE_logo.png" width="50%" style="display: block; margin: auto;" /></p>
-<p>In this portal, you’ll find links to various tutorials and guides for drone users of all levels.</p>
-<p>This page will be a work in progress and new resources will be added periodically. Feel free to reach out to us at <a href="mailto:UASSafety@ucmerced.edu">UASSafety@ucmerced.edu</a> if you have any questions or would like to see additional resources added.</p>
-<p>If you’re interested in contributing a tutorial or guide, please feel free to fork this repository and add your content. This guide is developed in RStudio using bookdown. All content is generated from the markdown files in the main directory.</p>
+<p>The main control settings tab allows the user to modify a number of basic settings such as</p>
+<div class="figure">
+<img src="images/MC/DJI-MC-SettingsPage.jpg" alt="" />
+<p class="caption">Main Control Settings</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>Return-to-Home Altitude</li>
+<li>Beginner Mode</li>
+<li>Maximum Altitude</li>
+<li>Distance Limit</li>
+</ol>
+<p>with more advanced settings found at the bottom of the page.</p>
+<div id="advanced-settings" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Advanced Settings</h3>
+<p><img src="images/MC/DJI-MC-Advanced-Settings.jpg" alt="Advanced Settings Page" />
+The Advanced Settings page allows us access to a few different aircraft sensitivity settings.</p>
+<ol style="list-style-type: decimal">
+<li>EXP</li>
+</ol>
+<div class="figure">
+<img src="images/MC/DJI-ExpSettings.jpg" alt="" />
+<p class="caption">EXP settings</p>
+</div>
+<p>Tuning the EXP settings allows you to increase/decrease stick input sensitivity. The X-axis indicates user stick input and the Y-axis represents the “value” being output to the motors from these stick inputs. The higher the value, the more sensitive the drone can be towards the input stick movement. This is not to be confused with the next setting below.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Sensitivity</li>
+</ol>
+<div class="figure">
+<img src="images/MC/DJI-SensitivitySettings.jpg" alt="" />
+<p class="caption">Sensitivity settings</p>
+</div>
+<p>The sensitivity setting affects how rapidly the drone will respond to the input. A higher value would cause the drone to react more aggressively while a lower value would dull out that same input.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Gain</li>
+</ol>
+<div class="figure">
+<img src="images/MC/DJI-GainSettings.jpg" alt="" />
+<p class="caption">Gain settings</p>
+</div>
+<p>Generally, the gain settingss are left alone.</p>
+<p><em>General comment for myself, try and get a drone to checkout some of these functions before you can specifically state what it is that they do. There are some contradicting pieces of information found on the “Gain” settings and I don’t want to give the wrong words of advice for something that can be sensitive to errors.</em></p>
+</div>
+</div>
+<div id="visual-navigation-settings" class="section level2">
+<h2><span class="header-section-number">3.2</span> Visual Navigation Settings</h2>
+<div class="figure">
+<img src="images/VN/DJI-VisualNavigationSettings.jpg" alt="" />
+<p class="caption">Visual Navigation Settings Page</p>
+</div>
+<p>Here we can toggle the Obstacle avoidance on and off, as well as the Radar Chart that displays real time obstacle detection. At the bottom we can again find Advanced Settings that pertain to the systems Visual navigation.</p>
+<div class="figure">
+<img src="images/VN/DJI-VN-AdvancedSettings.jpg" alt="" />
+<p class="caption">Advanced Settings</p>
+</div>
+<p>The Advanced Settings for the Visual Navigation Settings allow for the enabling/disabling of both the Downward vision positioning system and the return-to-home obstacle detection feature.</p>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
+<a href="ch-camera-settings.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="ch-camera-settings.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
