@@ -40,9 +40,7 @@ The sensitivity setting affects how rapidly the drone will respond to the input.
 
 ![Gain settings](images\MC\DJI-GainSettings.jpg)
 
-Generally, the gain settingss are left alone. 
-
-*General comment for myself, try and get a drone to checkout some of these functions before you can specifically state what it is that they do. There are some contradicting pieces of information found on the "Gain" settings and I don't want to give the wrong words of advice for something that can be sensitive to errors.*
+Generally, the gain settings are left alone. Modifying these settings can introduce 
 
 ## Visual Navigation Settings
 
