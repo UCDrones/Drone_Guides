@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 General UAS Settings | Drone Guides</title>
+  <title>General UAS Settings | Drone Guides</title>
   <meta name="description" content="Guides for drones - by the UC Center of Excellence on UAS Safety and other contributors" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 General UAS Settings | Drone Guides" />
+  <meta property="og:title" content="General UAS Settings | Drone Guides" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 General UAS Settings | Drone Guides" />
+  <meta name="twitter:title" content="General UAS Settings | Drone Guides" />
   
   <meta name="twitter:description" content="Guides for drones - by the UC Center of Excellence on UAS Safety and other contributors" />
   
@@ -50,6 +50,15 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171022398-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171022398-1');
+</script>
 
 
 <style type="text/css">
@@ -78,43 +87,42 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #cccccc; background-color: #303030; }
 @media screen {
 code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
+code span.al { color: #ffcfaf; } /* Alert */
+code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #dca3a3; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.cf { color: #f0dfaf; } /* ControlFlow */
+code span.ch { color: #dca3a3; } /* Char */
+code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+code span.co { color: #7f9f7f; } /* Comment */
+code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+code span.do { color: #7f9f7f; } /* Documentation */
+code span.dt { color: #dfdfbf; } /* DataType */
+code span.dv { color: #dcdccc; } /* DecVal */
+code span.er { color: #c3bf9f; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
+code span.fl { color: #c0bed1; } /* Float */
+code span.fu { color: #efef8f; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+code span.kw { color: #f0dfaf; } /* Keyword */
+code span.op { color: #f0efd0; } /* Operator */
+code span.ot { color: #efef8f; } /* Other */
+code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+code span.sc { color: #dca3a3; } /* SpecialChar */
+code span.ss { color: #cc9393; } /* SpecialString */
+code span.st { color: #cc9393; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #cc9393; } /* VerbatimString */
+code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -130,31 +138,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">A Minimal Book Example</a></li>
+<li><a href="https://ucdrones.github.io/">UC Drones Resources Portal</a></li>
+<li><a href="./">Drone Guides</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Drone Guide Portal</a></li>
-<li class="chapter" data-level="2" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html"><i class="fa fa-check"></i><b>2</b> How to Set Your Settings For Good Media Cinematography</a><ul>
-<li class="chapter" data-level="2.1" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#settings-within-a-drone"><i class="fa fa-check"></i><b>2.1</b> Settings within a Drone</a><ul>
-<li class="chapter" data-level="2.1.1" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#iso"><i class="fa fa-check"></i><b>2.1.1</b> Iso</a></li>
-<li class="chapter" data-level="2.1.2" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#aperature"><i class="fa fa-check"></i><b>2.1.2</b> Aperature</a></li>
-<li class="chapter" data-level="2.1.3" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#shutter-speed"><i class="fa fa-check"></i><b>2.1.3</b> Shutter Speed</a></li>
-<li class="chapter" data-level="2.1.4" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#image-ratio"><i class="fa fa-check"></i><b>2.1.4</b> Image Ratio</a></li>
-<li class="chapter" data-level="2.1.5" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#image-format"><i class="fa fa-check"></i><b>2.1.5</b> Image Format</a></li>
-<li class="chapter" data-level="2.1.6" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#white-balance"><i class="fa fa-check"></i><b>2.1.6</b> White Balance</a></li>
-<li class="chapter" data-level="2.1.7" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#style"><i class="fa fa-check"></i><b>2.1.7</b> Style</a></li>
-<li class="chapter" data-level="2.1.8" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#color"><i class="fa fa-check"></i><b>2.1.8</b> COLOR</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Drone Guide Portal</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html"><i class="fa fa-check"></i>How to Set Your Settings For Good Media Cinematography</a><ul>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#three-rules-for-getting-the-best-drone-pictures"><i class="fa fa-check"></i>Three Rules for Getting the Best Drone Pictures</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#settings"><i class="fa fa-check"></i>Settings</a><ul>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#camera-settings"><i class="fa fa-check"></i>Camera Settings</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#photo-settings"><i class="fa fa-check"></i>Photo Settings</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#other-settings"><i class="fa fa-check"></i>Other Settings</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#example-scenarios"><i class="fa fa-check"></i><b>2.2</b> Example Scenarios</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#weather-considerations"><i class="fa fa-check"></i>Weather Considerations</a><ul>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#cloudy-and-overcast-days"><i class="fa fa-check"></i>Cloudy and Overcast Days</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#sunny-days"><i class="fa fa-check"></i>Sunny Days</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html"><i class="fa fa-check"></i><b>3</b> General UAS Settings</a><ul>
-<li class="chapter" data-level="3.1" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#main-control-mc-settings"><i class="fa fa-check"></i><b>3.1</b> Main Control (MC) Settings</a><ul>
-<li class="chapter" data-level="3.1.1" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#advanced-settings"><i class="fa fa-check"></i><b>3.1.1</b> Advanced Settings</a></li>
+<li class="chapter" data-level="" data-path="ch-camera-settings.html"><a href="ch-camera-settings.html#practice"><i class="fa fa-check"></i>Practice</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#visual-navigation-settings"><i class="fa fa-check"></i><b>3.2</b> Visual Navigation Settings</a></li>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html"><i class="fa fa-check"></i>General UAS Settings</a><ul>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#main-control-mc-settings"><i class="fa fa-check"></i>Main Control (MC) Settings</a><ul>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#advanced-settings"><i class="fa fa-check"></i>Advanced Settings</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#visual-navigation-settings"><i class="fa fa-check"></i>Visual Navigation Settings</a><ul>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#advanced-settings-1"><i class="fa fa-check"></i>Advanced Settings</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#remote-controller-settings"><i class="fa fa-check"></i>Remote Controller Settings</a></li>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#image-transmission-settings"><i class="fa fa-check"></i>Image Transmission Settings</a></li>
+<li class="chapter" data-level="" data-path="ch-uas-settings-Rmd.html"><a href="ch-uas-settings-Rmd.html#aircraft-battery-settings"><i class="fa fa-check"></i>Aircraft battery Settings</a></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://ucdrones.github.io/ch-resources.html" target="blank">Resources and Templates</a></li>
+<li><small><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</small></a></li>
 
 </ul>
 
@@ -174,9 +189,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="ch-uas-settings.Rmd" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> General UAS Settings</h1>
+<h1>General UAS Settings</h1>
 <div id="main-control-mc-settings" class="section level2">
-<h2><span class="header-section-number">3.1</span> Main Control (MC) Settings</h2>
+<h2>Main Control (MC) Settings</h2>
 <div class="figure">
 <img src="images/DJI-SettingsPage.jpg" alt="" />
 <p class="caption">Arrow indicating settings page location</p>
@@ -186,6 +201,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <img src="images/MC/DJI-MC-SettingsPage.jpg" alt="" />
 <p class="caption">Main Control Settings</p>
 </div>
+<div class="figure">
+<img src="images/MC/DJI-MClogo.jpg" alt="" />
+<p class="caption">Main Control Settings Logo</p>
+</div>
 <ol style="list-style-type: decimal">
 <li>Return-to-Home Altitude</li>
 <li>Beginner Mode</li>
@@ -194,7 +213,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <p>with more advanced settings found at the bottom of the page.</p>
 <div id="advanced-settings" class="section level3">
-<h3><span class="header-section-number">3.1.1</span> Advanced Settings</h3>
+<h3>Advanced Settings</h3>
 <p><img src="images/MC/DJI-MC-Advanced-Settings.jpg" alt="Advanced Settings Page" />
 The Advanced Settings page allows us access to a few different aircraft sensitivity settings.</p>
 <ol style="list-style-type: decimal">
@@ -225,17 +244,56 @@ The Advanced Settings page allows us access to a few different aircraft sensitiv
 </div>
 </div>
 <div id="visual-navigation-settings" class="section level2">
-<h2><span class="header-section-number">3.2</span> Visual Navigation Settings</h2>
+<h2>Visual Navigation Settings</h2>
 <div class="figure">
 <img src="images/VN/DJI-VisualNavigationSettings.jpg" alt="" />
 <p class="caption">Visual Navigation Settings Page</p>
 </div>
+<div class="figure">
+<img src="images/VN/DJI-VNLogo.jpg" alt="" />
+<p class="caption">Visual Navigation Settings Logo</p>
+</div>
 <p>Here we can toggle the Obstacle avoidance on and off, as well as the Radar Chart that displays real time obstacle detection. At the bottom we can again find Advanced Settings that pertain to the systems Visual navigation.</p>
+<div id="advanced-settings-1" class="section level3">
+<h3>Advanced Settings</h3>
 <div class="figure">
 <img src="images/VN/DJI-VN-AdvancedSettings.jpg" alt="" />
 <p class="caption">Advanced Settings</p>
 </div>
 <p>The Advanced Settings for the Visual Navigation Settings allow for the enabling/disabling of both the Downward vision positioning system and the return-to-home obstacle detection feature.</p>
+</div>
+</div>
+<div id="remote-controller-settings" class="section level2">
+<h2>Remote Controller Settings</h2>
+<p><em>add picture of settings page</em></p>
+<ol style="list-style-type: decimal">
+<li>Remote Controller Calibration</li>
+<li>Stick Mode</li>
+<li>Button Customization</li>
+<li>Remote Controller Linking</li>
+</ol>
+</div>
+<div id="image-transmission-settings" class="section level2">
+<h2>Image Transmission Settings</h2>
+<p><em>add picture of settings page</em></p>
+<ol style="list-style-type: decimal">
+<li>Channel Mode</li>
+<li>Channel selection</li>
+<li>Image Transmission Code Rate</li>
+</ol>
+</div>
+<div id="aircraft-battery-settings" class="section level2">
+<h2>Aircraft battery Settings</h2>
+<p><em>add picture of settings page</em></p>
+<ol style="list-style-type: decimal">
+<li>Smart Return Home (RTH)</li>
+<li>Critical Battery Warning</li>
+<li>Low Battery Warning</li>
+<li>Flight Time (on battery)</li>
+<li>Show Voltage on Main Screen</li>
+<li>Time to Discharge</li>
+<li>Battery Details</li>
+</ol>
 
 </div>
 </div>
@@ -260,25 +318,13 @@ The Advanced Settings page allows us access to a few different aircraft sensitiv
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
+"sharing": null,
 "fontsettings": {
 "theme": "white",
 "family": "sans",
 "size": 2
 },
-"edit": {
-"link": null,
-"text": null
-},
+"edit": null,
 "history": {
 "link": null,
 "text": null
@@ -289,8 +335,14 @@ gitbook.start({
 },
 "download": ["Drone-Guides.pdf", "Drone-Guides.epub"],
 "toc": {
-"collapse": "subsection"
-}
+"collapse": "section",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+},
+"search": true,
+"info": true
 });
 });
 </script>

@@ -1,9 +1,27 @@
 bookdown::gitbook:
+  highlight: zenburn
   css: style.css
+  includes: 
+    in_header: GA_script.html
   config:
     toc:
+      collapse: section
+      scroll_highlight: yes
       before: |
-        <li><a href="./">A Minimal Book Example</a></li>
+        <li><a href="https://ucdrones.github.io/">UC Drones Resources Portal</a></li>
+        <li><a href="./">Drone Guides</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
+        <li><a href="https://ucdrones.github.io/ch-resources.html" target="blank">Resources and Templates</a></li>
+        <li><small><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</small></a></li>
+    toolbar:
+      position: fixed
+    edit : null
+    download: null
+    search: yes
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing: null
+    info: yes
+  number_sections: false
