@@ -60,7 +60,7 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 
 ## Remote Controller Settings
 
-*add picture of settings page*
+![Remote controller settings page](\images\RC\DJI-RemoteSettings.jpg)
 
 1. Remote Controller Calibration
 2. Stick Mode
@@ -70,7 +70,7 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 
 ## Image Transmission Settings
 
-*add picture of settings page*
+![Image transmission settings](\images\imagetransmission\it-settings.jpg)
 
 1. Channel Mode
 2. Channel selection
@@ -78,7 +78,7 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 
 ## Aircraft battery Settings
 
-*add picture of settings page*
+![Aircraft battery settings page](\images\battery\aircraft-battery-settings.jpg)
 
 1. Smart Return Home (RTH)
 2. Critical Battery Warning
@@ -88,3 +88,22 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 6. Time to Discharge
 7. Battery Details
 
+## Miscellaneous Settings
+
+The three dots found at the bottom of our settings page allows us access to a variety of miscellaneous settings.Here we can modify things like which units (imperial/metric) are being displayed, live streaming settings, cache settings and more. 
+
+![Miscellaneous settings page](\images\misc-settings.jpg)
+
+1. Units (Imperial / Metric) - Allows you to switch the speed/distance information between MPH and KMPH.
+2. Choose Live Streaming Platform - Currently you can choose between facebook live, YouTube or even a custom RTMP server for your livestream.
+3. Show Flight Route / Clear flight route - This allows you to toggle between showing a flight route map or even clearing the current flight route indicators. 
+4. Cache Locally When Recording
+5. Record Audio with Video Cache
+6. Cache to SD Card
+7. Largest Video Cache Capacity
+8. Adaptively reduce cache resolution
+9. Auto Video Cache Cleanup
+10. Flight Restriction Warnings
+11. Device Name
+12. Full Screen Mode
+13. About
