@@ -2,13 +2,20 @@
 
 ## Main Control (MC) Settings
 
-![Arrow indicating settings page location](images\DJI-SettingsPage.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/DJI-SettingsPage.jpg')
+```  
+
 
 The main control settings tab allows the user to modify a number of basic settings such as
-   
-![Main Control Settings](images\MC\DJI-MC-SettingsPage.jpg)
 
-![Main Control Settings Logo](images/MC/DJI-MClogo.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/MC/DJI-MC-SettingsPage.jpg')
+```   
+
+```{r,echo=FALSE, out.width='10%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/MC/DJI-MClogo.jpg')
+```
 
 1. Return-to-Home Altitude
 2. Beginner Mode
@@ -20,47 +27,64 @@ with more advanced settings found at the bottom of the page.
 
 ### Advanced Settings
 
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/MC/DJI-MC-Advanced-Settings.jpg')
+```
 
-![Advanced Settings Page](images\MC\DJI-MC-Advanced-Settings.jpg)
 The Advanced Settings page allows us access to a few different aircraft sensitivity settings.
 
 1. EXP
 
-![EXP settings](images\MC\DJI-ExpSettings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/MC/DJI-ExpSettings.jpg')
+```
 
 Tuning the EXP settings allows you to increase/decrease stick input sensitivity. The X-axis indicates user stick input and the Y-axis represents the "value" being output to the motors from these stick inputs. The higher the value, the more sensitive the drone can be towards the input stick movement. This is not to be confused with the next setting below. 
 
 2. Sensitivity
 
-![Sensitivity settings](images\MC\DJI-SensitivitySettings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/MC/DJI-SensitivitySettings.jpg')
+```
 
 The sensitivity setting affects how rapidly the drone will respond to the input. A higher value would cause the drone to react more aggressively while a lower value would dull out that same input.  
 
 3. Gain
 
-![Gain settings](images\MC\DJI-GainSettings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/MC/DJI-GainSettings.jpg')
+```
 
-Generally, the gain settingss are left alone. 
+Generally, the gain settings are left alone. 
 
 *General comment for myself, try and get a drone to checkout some of these functions before you can specifically state what it is that they do. There are some contradicting pieces of information found on the "Gain" settings and I don't want to give the wrong words of advice for something that can be sensitive to errors.*
 
 ## Visual Navigation Settings
 
-![Visual Navigation Settings Page](images\VN\DJI-VisualNavigationSettings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/VN/DJI-VisualNavigationSettings.jpg')
+```
 
-![Visual Navigation Settings Logo](images/VN/DJI-VNLogo.jpg)
+```{r,echo=FALSE, out.width='10%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/VN/DJI-VNLogo.jpg')
+```
 
 Here we can toggle the Obstacle avoidance on and off, as well as the Radar Chart that displays real time obstacle detection. At the bottom we can again find Advanced Settings that pertain to the systems Visual navigation.
 
 ### Advanced Settings
 
-![Advanced Settings](images\VN\DJI-VN-AdvancedSettings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/VN/DJI-VN-AdvancedSettings.jpg')
+```
+
 
 The Advanced Settings for the Visual Navigation Settings allow for the enabling/disabling of both the Downward vision positioning system and the return-to-home obstacle detection feature.
 
 ## Remote Controller Settings
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/RC/DJI-RemoteSettings.jpg')
+```
 
-![Remote controller settings page](\images\RC\DJI-RemoteSettings.jpg)
 
 1. Remote Controller Calibration
 2. Stick Mode
@@ -69,8 +93,9 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 
 
 ## Image Transmission Settings
-
-![Image transmission settings](\images\imagetransmission\it-settings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/imagetransmission/it-settings.jpg')
+```
 
 1. Channel Mode
 2. Channel selection
@@ -78,8 +103,9 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 
 ## Aircraft battery Settings
 
-![Aircraft battery settings page](\images\battery\aircraft-battery-settings.jpg)
-
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/battery/aircraft-battery-settings.jpg')
+```
 1. Smart Return Home (RTH)
 2. Critical Battery Warning
 3. Low Battery Warning
@@ -92,18 +118,20 @@ The Advanced Settings for the Visual Navigation Settings allow for the enabling/
 
 The three dots found at the bottom of our settings page allows us access to a variety of miscellaneous settings.Here we can modify things like which units (imperial/metric) are being displayed, live streaming settings, cache settings and more. 
 
-![Miscellaneous settings page](\images\misc-settings.jpg)
+```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics('images/misc-settings.jpg')
+```
 
-1. Units (Imperial / Metric) - Allows you to switch the speed/distance information between MPH and KMPH.
-2. Choose Live Streaming Platform - Currently you can choose between facebook live, YouTube or even a custom RTMP server for your livestream.
-3. Show Flight Route / Clear flight route - This allows you to toggle between showing a flight route map or even clearing the current flight route indicators. 
-4. Cache Locally When Recording
-5. Record Audio with Video Cache
-6. Cache to SD Card
-7. Largest Video Cache Capacity
-8. Adaptively reduce cache resolution
-9. Auto Video Cache Cleanup
-10. Flight Restriction Warnings
-11. Device Name
-12. Full Screen Mode
-13. About
+1. **Units (Imperial / Metric)** - Allows you to switch the speed/distance information between MPH and KMPH.
+2. **Choose Live Streaming Platform** - Currently you can choose between facebook live, YouTube or even a custom RTMP server for your livestream.
+3. **Show Flight Route / Clear flight route** - This allows you to toggle between showing a flight route map or even clearing the current flight route indicators. 
+4. **Cache Locally When Recording** - 
+5. **Record Audio with Video Cache**
+6. **Cache to SD Card**
+7. **Largest Video Cache Capacity**
+8. **Adaptively reduce cache resolution**
+9. **Auto Video Cache Cleanup**
+10. **Flight Restriction Warnings**
+11. **Device Name**
+12. **Full Screen Mode**
+13. **About**
