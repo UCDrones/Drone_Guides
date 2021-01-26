@@ -10,24 +10,6 @@ link-citations: yes
 description: "Guides for drones - by the UC Center of Excellence on UAS Safety and other contributors"
 ---
 
-```{r eval=FALSE}
-
-foo <- function(x){
-  for( i in x ){
-    #  require returns TRUE invisibly if it was able to load package
-    if( ! require( i , character.only = TRUE ) ){
-      #  If package was not able to be loaded then re-install
-      install.packages( i , dependencies = TRUE )
-      #  Load package after installing
-      require( i , character.only = TRUE )
-    }
-  }
-}
-
-#  Then try/install packages...
-foo( c("bookdown" , "DiagrammeR" ) )
-```
-
 # Drone Guide Portal {#ch-getting-started}
 
 ```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}

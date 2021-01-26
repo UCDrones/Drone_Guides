@@ -1,0 +1,21 @@
+# Making a Good Checklist
+
+
+A good checklist is a key component of safety.  Here are some tips for making your checklists effective:
+
+1. **Break down your checklist into sections, each with less than 10 items**
+
+    A long and detailed checklist may be necessary, but it can get difficult to read and to follow.  Instead, break it down into smaller sections by inserting pause points at natural breaks.  For example, for a pre-flight checklist, create a section related to just aircraft setup, followed by a section for GCS/transmitter checks.  
+    
+2. **Determine whether your checklist is a 'Do-confirm' or a 'Read-do' checklist and keep it consistent**
+
+    A 'Do-confirm' checklist is one where the checklist is used to confirm that an item is done - sometimes in order or out of order.  This is common for experienced teams where everyone is aware of their responsibilities and are expected to work independently.  A 'Read-do' checklist is one where team members perform the tasks as they are read, like following a set of instructions.  This form of a checklist works best with new groups, or where the order of operations is important.  Which ever form your checklist takes, make sure that it is consistent throughout the document.
+    
+3. **Update your checklists**
+
+    A checklist is a living document - don't be afraid to update or change it if you find it to be deficient.  Make it part of your post-flight documentation to think about whether your existing checklists had everything you needed it to have.
+    
+4. **Fit checklist sections into a single page**
+
+    While your checklists adjust and grow, make sure that they remain easy to read and to parse.  Your checklist sections should remain contained within a single page - if you have an item that runs onto the next page, seperate the entire section to the new page, or reduce the font size to keep everyone on one page.  If your section exceeds an entire page, consider breaking it down into smaller sections.
+    

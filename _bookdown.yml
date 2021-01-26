@@ -4,6 +4,7 @@ language:
   ui:
     chapter_name: "Chapter "
 rmd_files: ["index.Rmd",
+            "ch-checklists.Rmd",
             "ch-camera-settings.Rmd",
             "ch-uas-settings.RMD"]
 output_dir: "docs"
