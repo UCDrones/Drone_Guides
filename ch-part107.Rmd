@@ -1,0 +1,29 @@
+# How to Get Your Part 107
+
+
+The Part 107 exam is required for those who intend to fly a drone for commercial purposes.
+
+The official FAA study guide can be found here: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/remote_pilot_study_guide.pdf
+
+## Requirements to Take the Exam
+1.  Be at least 16 years old 
+2.  Be able to read, write, speak and understand English 
+3.  Be in a physical and mental condition to safely fly a drone 
+4.  Pass the aeronautical exam: "Unmanned Aircraft General - Small (UAG)"
+
+## Process to Obtain Your License
+Step 1: Obtain an FAA tracking number through IACRA by creating a profile 
+https://iacra.faa.gov/IACRA/Default.aspx
+
+Step 2: Schedule your exam at a FAA-approved testing center. You will need your tracking number. The current fee is $175
+https://faa.psiexams.com/faa/login
+
+Step 3: Pass the exam!
+
+Step 4: Complete FAA Form 8710-13 (Remote Pilot Certificate and/or Rating Application) using IACRA.
+
+**Remember to do the online recruitment training every 24 months to maintain your license**
+
+
+
+
