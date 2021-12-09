@@ -3,8 +3,6 @@
 
 The Part 107 exam is required for those who intend to fly a drone for commercial purposes.
 
-The official FAA study guide can be found here: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/remote_pilot_study_guide.pdf
-
 ## Requirements to Take the Exam
 1.  Be at least 16 years old 
 2.  Be able to read, write, speak and understand English 
@@ -12,18 +10,46 @@ The official FAA study guide can be found here: https://www.faa.gov/regulations_
 4.  Pass the aeronautical exam: "Unmanned Aircraft General - Small (UAG)"
 
 ## Process to Obtain Your License
-Step 1: Obtain an FAA tracking number through IACRA by creating a profile 
-https://iacra.faa.gov/IACRA/Default.aspx
+Step 1: Obtain an FAA tracking number through  [IACRA](https://iacra.faa.gov/IACRA/Default.aspx) by creating a profile 
 
-Step 2: Schedule your exam at a FAA-approved testing center. You will need your tracking number. The current fee is $175
-https://faa.psiexams.com/faa/login
+Step 2: [Schedule your exam](https://faa.psiexams.com/faa/login) at a FAA-approved testing center. You will need your tracking number. As of 2021, the examination fee is $175.
 
-Step 3: Pass the exam!
+Step 3: Pass the exam! The two hour exam will be on a computer. You are allowed to bookmark any questions you are unsure of. A booklet with aeronautical charts is provided.
 
 Step 4: Complete FAA Form 8710-13 (Remote Pilot Certificate and/or Rating Application) using IACRA.
 
 **Remember to do the online recruitment training every 24 months to maintain your license**
 
+## Studying For Part 107
+[A great starter video](https://www.youtube.com/watch?v=6_ucCKFJUCU&t=6s) would be from Tony and Chelsea Northup. Tony provides a brief overview of the main topics that will be on the exam.
 
+The official FAA study guide can be found here: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/remote_pilot_study_guide.pdf
 
+A breakdown of key parts to study
+
+- Chapter 2: all airspace (controlled, uncontrolled, special, other), NOTAMs
+
+- Chapter 3a: learn how to read METARS
+
+- Chapter 3b: density altitude, what impacts performance, standard pressure and temperature at sea level, unstable/stable air, clouds, inversion
+
+- Chapter 4: everything
+
+- Chapter 7: military alphabet
+
+- Chapter 8/9: everything
+
+- Chapter 10: everything (the FAA wants you to be safe, so there will be a handful of questions from this section)
+
+- Chapter 11: NOTAMS and VFR charts (spend a good portion of your study time understanding VFR charts as many questions on the exam will be on this topic)
+
+As of 2021, the FAA has included new questions on flight over people and remote identification. These two FAA links should provide enough information.
+https://www.faa.gov/uas/commercial_operators/operations_over_people/
+https://www.faa.gov/uas/getting_started/remote_id/
+
+A great practice exam:
+https://3drobotics.com/quiz/faa-part-107/
+
+Explanations for practice exam: 
+https://www.youtube.com/watch?v=-IEjiWiFf5E&t=0s
 
