@@ -1,0 +1,47 @@
+# Taking the Part 107 Exam {#ch-exam}
+
+*by Giselle Alonzo*
+
+## How to Prepare
+
+If you’ve taken interest in getting your part 107 drone license there are a few things to do to prepare. For starters, one must meet the qualifications in order to obtain the license such as  
+
+- Being at least 16 years of age 
+- Able to speak, read, write, and understand English 
+- Mentally and physically fit to fly your drone 
+
+If you’ve met these qualifications, then you will need to get an FAA tracking number that can be obtained by creating an account through IACRA. To schedule your exam, you will need your FAA tracking number, then go to the PSI testing website to find a center to take your exam. I paid around \$175 for the exam and would recommend studying at least 1-2 weeks prior to taking your exam.  
+
+[Step by step on how to schedule your exam](https://www.peltierphotocourses.com/pages/schedule-part-107-remote-pilot-test)
+
+## Study Materials 
+
+Now that you have scheduled your exam it is a good idea to watch videos, and other study guides to better prepare yourself for the exam. You will only need to score a 70% to pass; there are 60 questions on the exam that include aircraft operations, airport operations, regulations, airspace requirements, radio communications, weather, loading and performance, night flying regulations, flying over people, and remote identification (effective Sept. 2023). It may seem like a lot of information; however, I found these study guides most useful: 
+
+- [UCDrones](https://ucdrones.github.io/New_User_Guide/get-license.html) 
+- [Airman Knowledge Testing Supplement](https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf) (this is also the booklet given to you during your exam)  
+- [How to read Sectional Charts](https://thelegaldrone.com/how-to-read-a-sectional-chart/) 
+- [New Drone Regulations](https://spectrum.ieee.org/faa-drone-rules-what-recreational-and-commercial-pilots-need-to-know) 
+- Any online practice tests (FAA, King Schools, Pilot institute, jrupprechlaw.com, quizlet, etc.) 
+
+You will be given 120 minutes, or 2 hours to complete the exam, but I found myself completing the exam within an hour. The test has a passing rate of about 92%.  
+
+Some questions I was asked on the exam included the new laws on remote identification and what to do if it fails, nighttime flying regulations and what to do in certain scenarios, a few sectional charts (+ how to locate an airport using longitude and latitude), weather (+ how it can affect the drone operations), and crew resource management. 
+
+## What to Expect 
+
+The center I took the exam was at the L&J Aviation Inc. in Modesto, CA. In my experience they sent an email a day prior to the exam date with directions and driving instructions upon arrival to the correct building. When we entered the building, we went to the left and entered the door that said “L&J Aviation Inc.”. We were then greeted by our proctor who collected our photo ID’s and stored all our belongings in a locked cabinet. We were then guided into a separate room with desks that had the monitors and cameras pointed at each of the desks. In the exam room we were given 2 pieces of blank paper, a clear sheet with an expo marker, and the Airman Knowledge Testing Supplement. We were then instructed to log onto the computers with the code given to us by our proctor and then we were asked to complete a mini practice test to familiarize ourselves on how to take the test. Once that was completed, we were allowed to begin the exam and were instructed to raise your hand when we were finished to have your proctor come pick you up and return to the office to discuss your exam results.  
+
+## After the Test
+
+If you passed the exam, congratulations!! Your proctor will give you your stamped scoresheet (do NOT lose this) and printed instructions on how to log back into IACRA to input your results.  
+
+[What do to after you’ve passed the exam](https://www.peltierphotocourses.com/pages/after-passing-part-107-test-iacra) 
+
+After about a week of inputting your application on IACRA an email will be sent stating your temporary certificate is available. This may range from 1-4 weeks as a TSA background check will be completed. Feel free to check back periodically as my temporary certificate was available 4 days after my exam. You are NOT allowed to fly until you have your temporary certificate. The official license will come into the mail about 6-8 weeks after your exam.  
+
+If you didn’t pass the exam, you can retake the exam after a 14-day period. After taking your exam the stamped scoresheet will list the topics that you missed, I’d highly advise to review those topics more thoroughly, and brush over the other topics to be better prepared. There are also training courses that you can pay for to help improve your prior score. 
+
+You can review what questions you missed [here](https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acs/uas_acs.pdf).  
+
+ 

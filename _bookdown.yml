@@ -7,5 +7,6 @@ rmd_files: ["index.Rmd",
             "ch-checklists.Rmd",
             "ch-camera-settings.Rmd",
             "ch-uas-settings.RMD",
-            'ch-part107.RMD']
+            "ch-exam.Rmd",
+            "ch-part107.RMD"]
 output_dir: "docs"
